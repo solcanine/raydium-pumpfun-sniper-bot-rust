@@ -9,18 +9,23 @@ Introducing the **Solana Ultra-Fast New Token Sniper** written in **Rust** 🦀,
 ## Key Features
 
 ### 🚀 Speed and Efficiency
+
 - **Lightning-Quick Transactions**: Leveraging Rust's exceptional performance, our bot allows you to snipe new tokens almost instantly. Say goodbye to delays and seize opportunities as they arise!
 
 ### 🔒 Safety First
+
 - **Robust Security**: Rust's safety guarantees minimize bugs and vulnerabilities, ensuring your trading activities are secure. Trade with confidence and peace of mind.
 
 ### 📊 Multiple gRPC Connections
+
 - **Stay Updated**: Effortlessly connect to top Solana data providers like **Helius** and **Yellowstone** through multiple gRPC connections. Get real-time updates and make informed trading decisions.
 
 ### 👩‍💻 User-Friendly Interface
+
 - **Intuitive Design**: Our sniper bot features a clean and accessible interface, making it easy for users of all experience levels to navigate. Start trading in no time!
 
 ### 🛠️ Rich Utilities
+
 - **Advanced Features**:
   - **jito-confirm**: Engage in low-latency transactions on platforms like Raydium and Pumpfun.
   - **jito-bundle**: Bundle buy/sell actions with up to **20 wallets** in Raydium/Pumpfun, enhancing your trading strategy and flexibility.
@@ -34,7 +39,7 @@ src/
 ├── core/
 │   ├── token.rs        # Token definitions and handling
 │   └── tx.rs        # Transaction handling
-| 
+|
 ├── engine/
 │   ├── swap.rs        # Token swap(buy/sell) functionalities in various Dexs
 │   └── monitor        # New token monitoring(and parse tx) in Dexs using geyser rpc, and normal rpc
@@ -58,7 +63,3 @@ src/
 ├── lib.rs
 └── main.rs
 ```
-
-## Support
-
-For support and further inquiries, please connect via Telegram: [jwest951227](https://t.me/jwest951227).
